@@ -55,6 +55,7 @@ namespace CarMarket
             if (splitContainer1.Panel2.Controls.Count > 0)
                 splitContainer1.Panel2.Controls.Clear();
             splitContainer1.Panel2.Controls.Add(userControl);
+            userControl.Dock = DockStyle.Fill;
         }
     }
 }
